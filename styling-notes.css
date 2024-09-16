@@ -1,0 +1,79 @@
+
+body {
+    background-color: #282b33;
+    color: white;
+    font-family: 'Roboto';
+}
+
+
+/* 
+البوردر نضع فيه 3 قيم 
+1. border width
+2. type of the border
+3. border color
+
+border: 1px solid red;
+
+*/
+/* table-section */
+#table-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+   text-align: center;
+    padding-top: 100px;
+}
+#table-div table td{
+    padding: 15px 40px ;
+}
+
+#table-div table th{
+    padding: 15px 60px ;
+    
+}
+/* background colors for the table headers */
+#th-1 {
+    background-color: white;
+    color: #282b33;
+}
+
+#th-2 {
+    background-color: #ff9b00;
+}
+#th-3 {
+    background-color: #ea3c43;
+}
+
+#th-4 {
+    background-color: #07b8c7;
+}
+
+button {
+    background-color: #ea3c43;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+
+
+
+
+table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid gray;
+}
+th {
+    border: 1px solid gray;
+}
+#h3{
+    font-size: 35px;
+
+}
